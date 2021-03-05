@@ -1,5 +1,3 @@
-import BaseButton from './BaseButton';
-import ButtonNoFill from './ButtonNoFill';
 import Head from 'next/head';
 export default function Layout({ children }) {
   return (
@@ -12,16 +10,17 @@ export default function Layout({ children }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         />
       </Head>
-      <nav>
-        <ButtonNoFill>Giris Yap</ButtonNoFill>
-        <BaseButton>KayıtOl</BaseButton>
-      </nav>
-      <br />
-      <br />
+      <nav
+        style={{
+          width: '100%',
+          backgroundColor: 'white',
+          position: 'fixed',
+          zIndex: '2',
+          height: '50px',
+        }}
+      ></nav>
+
       <main>{children}</main>
-      <br />
-      <br />
-      <footer>Design by Ef Soft</footer>
     </div>
   );
 }

@@ -3,8 +3,6 @@ import styles from './Information.module.css';
 function Information() {
   return (
     <>
-      <br />
-      <br />
       <div className={styles.container}>
         <h1>Doğru cevaplara ulaşmak için</h1>
         <ul>
