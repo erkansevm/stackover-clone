@@ -1,9 +1,13 @@
 import styles from './PopularTags.module.css';
 
-function PopularTags({ name }) {
+function PopularTags({ name, color }) {
   return (
     <>
-      <a href="#" className={styles.tag}>
+      <a
+        href="#"
+        className={styles.tag}
+        style={{ backgroundColor: `#${color}` }}
+      >
         {name}
       </a>
     </>

@@ -14,7 +14,7 @@ function PopularTags() {
         </div>
         <div className={styles.container}>
           {tags.map((tag, index) => (
-            <Tags key={index} name={tag} />
+            <Tags key={index} name={tag} color="232a34" />
           ))}
         </div>
       </div>
