@@ -32,16 +32,3 @@ ul {
 * {
   box-sizing: border-box;
 }
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-.bg_dark {
-  background-color: #232a34;
-}
-
-.bg_green {
-  background-color: #2cb673;
-}

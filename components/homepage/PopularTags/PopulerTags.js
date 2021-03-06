@@ -7,7 +7,6 @@ function PopularTags() {
 
   return (
     <>
-      <br />
       <div className={styles.popularTags}>
         <div className={styles.title}>
           <h1>Popüler Tagler</h1>

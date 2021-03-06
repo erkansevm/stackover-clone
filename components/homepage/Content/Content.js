@@ -4,8 +4,12 @@ import QuestionCard from './QuestionCard';
 function Content() {
   return (
     <>
-      <br />
       <div className={styles.container}>
+        <QuestionCard />
+        <QuestionCard />
+        <QuestionCard />
+        <QuestionCard />
+        <QuestionCard />
         <QuestionCard />
         <QuestionCard />
         <QuestionCard />

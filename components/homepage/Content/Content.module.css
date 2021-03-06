@@ -1,7 +1,8 @@
 .container {
+  margin: 5%;
   width: 700px;
-  height: 755px;
-  background-color: aqua;
+  height: auto;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   flex-direction: column;
