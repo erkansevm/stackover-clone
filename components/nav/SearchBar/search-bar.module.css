@@ -1,0 +1,24 @@
+.inputBox{
+  width: 30.13%;
+  height: 40px;
+  border-radius: 20px;
+  border:1px solid #969696;
+  padding: 13px 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.inputBox i{
+  font-size: 18px;
+  color: var(--pm-green);
+}
+.inputBox input{
+  margin-left: 4px;
+  border: none;
+  background: none;
+}
+.inputBox input:focus{
+  outline: none;
+  border: none;
+  background: none;
+}

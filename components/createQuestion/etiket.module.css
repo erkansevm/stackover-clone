@@ -1,0 +1,22 @@
+.etiket{
+  width: fit-content;
+  height: 30px;
+  background: #4D5AE1;
+  border-radius: 3px;
+  padding: 14px 8px;
+  display: flex;
+  align-items: center;
+}
+.etiket i{
+  color: rgb(219, 219, 219);
+  margin: 0 4px;
+}
+.etiket i:hover{
+  color: white;
+  cursor: pointer;
+}
+.etiket span{
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
