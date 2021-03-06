@@ -1,0 +1,40 @@
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 10px;
+ }
+ .labels{
+   display: flex;
+   flex-direction: column;
+   margin-left: 9px;
+ }
+ .explainer{
+   color: #5E5E5E;
+ }
+ .label{
+   font-size: 20px;
+   font-weight: bold;
+ }
+ .etiketBox{
+   width: 776px;
+   height: 45px;
+   border: 1px solid #747474;
+   border-radius: 3px;
+   background-color: white;
+   padding: 10px 8px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ }
+ .input{
+   background: none;
+   border: none;
+   font-weight: bold;
+   font-size: 16px;
+ }
+ .input::placeholder{
+   font-weight: normal;
+   color: #B8B8B8;
+   font-size: 16px;
+ }

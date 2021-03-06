@@ -1,0 +1,27 @@
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 10px;
+ }
+ .inputBox div{
+   display: flex;
+   flex-direction: column;
+   margin-left: 9px;
+ }
+ .explainer{
+   color: #5E5E5E;
+ }
+ .label{
+   font-size: 20px;
+   font-weight: bold;
+ }
+ .input{
+   width: 776px;
+   min-height: 407px;
+   height: fit-content;
+   border: 1px solid #747474;
+   border-radius: 3px;
+   font-size: 16px;
+   padding: 9px 13px;
+ }
