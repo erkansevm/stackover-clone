@@ -3,7 +3,7 @@ import styles from './PopularTags.module.css';
 import Tags from './Tags';
 
 function PopularTags() {
-  const [tags, setTags] = useState(['Python', 'Web', 'Android', 'Ios']);
+  const [tags] = useState(['Python', 'Web', 'Android', 'Ios']);
 
   return (
     <>
