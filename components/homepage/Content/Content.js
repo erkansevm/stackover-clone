@@ -1,5 +1,4 @@
 import styles from './Content.module.css';
-import QuestionCard from './QuestionCard';
 
 function Content({ children }) {
   return (
