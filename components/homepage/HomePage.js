@@ -3,6 +3,7 @@ import CreateQuestion from './CreateQuestion/CreateQuestion';
 import Information from './Information/Information';
 import PopularTags from './PopularTags/PopulerTags';
 import styles from './HomePage.module.css';
+import QuestionCard from './Content/QuestionCard';
 
 function HomePage() {
   return (
@@ -13,7 +14,18 @@ function HomePage() {
           <PopularTags />
         </div>
         <div className="middle">
-          <Content />
+          <Content>
+            <QuestionCard />
+            <QuestionCard />
+            <QuestionCard />
+            <QuestionCard />
+            <QuestionCard />
+            <QuestionCard />
+            <QuestionCard />
+            <QuestionCard />
+            <QuestionCard />
+            <QuestionCard />
+          </Content>
         </div>
 
         <div className={styles.right}>
