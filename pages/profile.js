@@ -4,7 +4,7 @@ import ProfilCard from '../components/profil page/profil/ProfilCard';
 import Content from '../components/homepage/Content/Content';
 import CreateQuestion from '../components/homepage/CreateQuestion/CreateQuestion';
 import styles from '../styles/profilepage.module.css';
-export default function HomePage() {
+export default function Profile() {
   return (
     <Layout>
       <div className={styles.container}>

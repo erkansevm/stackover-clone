@@ -1,21 +1,9 @@
 import styles from './Content.module.css';
-import QuestionCard from './QuestionCard';
 
-function Content() {
+function Content({ children }) {
   return (
     <>
-      <div className={styles.container}>
-        <QuestionCard />
-        <QuestionCard />
-        <QuestionCard />
-        <QuestionCard />
-        <QuestionCard />
-        <QuestionCard />
-        <QuestionCard />
-        <QuestionCard />
-        <QuestionCard />
-        <QuestionCard />
-      </div>
+      <div className={styles.container}>{children}</div>
     </>
   );
 }
