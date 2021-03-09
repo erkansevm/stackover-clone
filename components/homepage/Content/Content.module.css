@@ -1,6 +1,5 @@
 .container {
-  margin: 5%;
-  width: 700px;
+  width: 750px;
   height: auto;
   background-color: transparent;
   display: flex;
@@ -62,3 +61,4 @@
   text-align: center;
   align-items: center;
 }
+  

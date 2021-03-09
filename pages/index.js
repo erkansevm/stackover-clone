@@ -1,9 +1,11 @@
+/* Home Page deneme  */
 import Layout from '../components/layout';
-export default function HomePage() {
-  return (
-      <Layout>
-        
-      </Layout>
-    )
-}
+import HomePage from '../components/homepage/HomePage';
 
+export default function Index() {
+  return (
+    <Layout>
+      <HomePage />
+    </Layout>
+  );
+}
