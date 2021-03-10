@@ -29,3 +29,12 @@
 .middle {
   margin-top: 210px;
 }
+
+@media only screen and (max-width: 1240px) {
+  .right {
+    display: none;
+  }
+  .middle {
+    margin: 210px -50px;
+  }
+}

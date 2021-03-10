@@ -10,10 +10,13 @@ function HomePage() {
     <div className={styles.big}>
       <div className={styles.container}>
         <div className={styles.left}>
+          <div className={styles.responsive}>
+            <Information />
+          </div>
           <CreateQuestion />
           <PopularTags />
         </div>
-        <div className="middle">
+        <div className={styles.middle}>
           <Content>
             <QuestionCard />
             <QuestionCard />
