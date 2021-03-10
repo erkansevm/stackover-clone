@@ -16,9 +16,17 @@ Profile
 [] Sayfa sonunda gösterilecek birşey kalmadı componenti
 [+] Change background değiştir
 
-
 Genel 
-
 [] Kod düzenlemesi
 [] Renklilik
 [] Responsive
+
+-----Eksikler------
+
+-Home,Profile 1100 px den sonra responsive tasarımı 
+-Profile Page Tasarımı gözden geçirilebilir
+-Soru oluştur responsive
+-Soru detay sayfası full
+-Soru oluştur arka plan renklendirmesi
+-Hover,focus Eklentileri
+-Kod temizliği

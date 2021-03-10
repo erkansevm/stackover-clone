@@ -2,13 +2,12 @@ import Content from '../homepage/Content/Content';
 import CreateQuestion from '../homepage/CreateQuestion/CreateQuestion';
 import styles from './Profile.module.css';
 import QuestionCard from '../homepage/Content/QuestionCard';
-import ProfilCard from './profil/ProfilCard';
-import ProfilBg from './bg/ProfilBg';
+import ProfilCard from './profileCard/ProfilCard';
+import Information from '../homepage/Information/Information';
 
 function Profil() {
   return (
     <>
-      <ProfilBg />
       <div className={styles.big}>
         <div className={styles.container}>
           <div className={styles.left}>
@@ -20,10 +19,15 @@ function Profil() {
               <QuestionCard />
               <QuestionCard />
               <QuestionCard />
+              <QuestionCard />
+              <QuestionCard />
+              <QuestionCard />
+              <QuestionCard />
             </Content>
           </div>
 
           <div className={styles.right}>
+            <Information />
             <CreateQuestion />
           </div>
         </div>

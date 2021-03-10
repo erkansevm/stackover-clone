@@ -2,7 +2,7 @@
   max-width: 1440px;
   display: flex;
   justify-content: space-around;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .left {
@@ -11,14 +11,17 @@
   flex-direction: column;
   justify-content: space-between;
   position: sticky;
-  top: 200px;
+  top: 150px;
 }
 
 .right {
-  margin-top: 150px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   position: sticky;
-  top: 350px;
-  height: 500px;
+  top: 150px;
+  height: 600px;
 }
 
 .big {
@@ -27,7 +30,7 @@
 }
 
 .middle {
-  margin-top: 210px;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 1240px) {
@@ -35,6 +38,7 @@
     display: none;
   }
   .middle {
-    margin: 210px -50px;
+    margin: 0 -50px;
+    margin-left: 10px;
   }
 }

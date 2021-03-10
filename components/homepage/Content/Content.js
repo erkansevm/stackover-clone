@@ -6,6 +6,8 @@ function Content({ children }) {
       <div className={styles.container}>
         {children}
         <div className={styles.empty}></div>
+        <span className={styles.span}></span>
+        <div>Sayfa Sonuna geldiniz</div>
       </div>
     </>
   );

@@ -4,7 +4,7 @@ const ProfilCard = () => {
     <>
       <div className={styles.card}>
         <img
-          src="https://images.pexels.com/photos/4906334/pexels-photo-4906334.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src="https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           alt="profil-image"
         />
         <div className={styles.content}>
