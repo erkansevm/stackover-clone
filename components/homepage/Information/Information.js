@@ -6,8 +6,8 @@ function Information() {
       <div className={styles.container}>
         <h1>Doğru cevaplara ulaşmak için</h1>
         <ul>
-          <li>İçeriği anlatan başlık</li>
-          <li>Doğru konu etiketi</li>
+          <li>İçeriği anlatan başlık bul</li>
+          <li>Doğru konu etiketi kullan</li>
           <li>Göresellerle detaylandır</li>
         </ul>
       </div>

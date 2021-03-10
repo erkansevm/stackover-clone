@@ -19,6 +19,11 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 10px;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  background-color: rgb(238, 238, 238);
 }
 
 .card h1 {
@@ -60,4 +65,25 @@
   display: flex;
   text-align: center;
   align-items: center;
+}
+
+.empty {
+  height: 50px;
+}
+
+.span {
+  content: '';
+  width: 100%;
+  margin: 5px;
+  height: 1px;
+  background: black; /* Remove, just showing empty line */
+}
+
+@media only screen and (max-width: 1240px) {
+  .card {
+    width: 600px;
+  }
+  .container {
+    width: 650px;
+  }
 }

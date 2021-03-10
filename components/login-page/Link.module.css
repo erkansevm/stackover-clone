@@ -10,6 +10,11 @@
   display: flex;
   text-decoration: none;
   color: white;
+  transition: all 0.5s;
+}
+
+.link_box:hover {
+  transform: translateX(10px);
 }
 
 .link_box h3 {

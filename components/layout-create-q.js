@@ -1,6 +1,6 @@
-import NavBar from './nav/NavBar'
+import NavBar from './nav/NavBar';
 import Head from 'next/head';
-import styles from './layout-create-q.module.css'
+import styles from './layout-create-q.module.css';
 
 export default function Layout({ children }) {
   return (
@@ -13,7 +13,7 @@ export default function Layout({ children }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         />
       </Head>
-       <NavBar />
+      <NavBar />
       <main className={styles.main}>{children}</main>
       <br />
       <br />

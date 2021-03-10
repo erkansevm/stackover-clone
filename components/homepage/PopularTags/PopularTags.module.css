@@ -48,3 +48,13 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 1000px) {
+  .popularTags {
+    width: 200px;
+    height: 180px;
+  }
+  .title {
+    width: 200px;
+  }
+}
