@@ -1,0 +1,22 @@
+.questionArea{
+  width: 650px;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 30px 40px;
+}
+.topSectionContainer{
+  display: flex;
+  flex-direction:column ;
+}
+
+
+.content{
+  margin: 20px 0;
+}
+
+.tagsContainer{
+  display: flex;
+}
+
+

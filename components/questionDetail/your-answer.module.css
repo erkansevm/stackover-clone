@@ -1,0 +1,41 @@
+.answerArea{
+  width: 650px;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 30px 40px;
+  margin-top: 20px;
+}
+.topSection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  margin-top: 10px;
+}
+.ownerAvatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--pm-green);
+}
+.topSection div{
+  display: flex;
+  align-items: center;
+}
+.ownerName{
+  margin-left: 5px;
+  color:#202428;
+  font-size: 16px;
+  font-weight: bold;
+}
+.input{
+  width: 100%;
+  min-height: 307px;
+  height: fit-content;
+  border: 1px solid #747474;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 9px 13px;
+}

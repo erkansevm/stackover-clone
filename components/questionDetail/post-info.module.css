@@ -1,0 +1,34 @@
+
+.topSection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  margin-top: 10px;
+}
+.ownerAvatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--pm-green);
+}
+.topSection div{
+  display: flex;
+  align-items: center;
+}
+.ownerName{
+  margin-left: 5px;
+  color:#202428;
+  font-size: 16px;
+  font-weight: bold;
+}
+.extraInfoContainer{
+  margin-left: 13px;
+}
+
+.extraInfo{
+  font-size: 14px;
+  color:#64707d;
+  text-align: center;
+}
