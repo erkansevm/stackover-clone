@@ -11,7 +11,7 @@
   border-radius: 20px;
   font-size: 16px;
   text-decoration: none;
-  transition: all 1s;
+  transition: all 300ms;
 }
 
 .question {
@@ -24,7 +24,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  transition: all 0.7s;
+  transition: all 300ms;
 }
 
 .question h3 {

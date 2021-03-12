@@ -24,6 +24,9 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
 }
+textarea{
+  resize: none;
+}
 
 * {
   box-sizing: border-box;
